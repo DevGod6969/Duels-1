@@ -18,7 +18,7 @@ placeHolders:
   SG: "&bSG\n&8{0} Queue | {1} Playing"
 
 # Lobby options
-lobby-items-enabled: false
+lobby-items-enabled: true
 # Items
 lobby-items:
   join-queue-unranked:
@@ -29,7 +29,7 @@ lobby-items:
     commands:
       - name: "queue list unranked"
         console: false
-    slot: 0
+    slot: 1
   join-queue-ranked:
     id: 355
     meta: 14
@@ -38,7 +38,7 @@ lobby-items:
     commands:
       - name: "queue list ranked"
         console: false
-    slot: 1
+    slot: 2
   leave-queue:
     id: 355
     meta: 14
@@ -47,9 +47,9 @@ lobby-items:
     commands:
       - name: "queue leave"
         console: false
-    slot: 8
+    slot: 3
 
-form-title-duel: "DUEL KIT SELECTION"
-form-content-duel: "Select a kit"
+form-title-duel: "DUELS"
+form-content-duel: "Select a gamemode"
 
 message-stats-players: "Stats of {0}\nWins: {1}\nLosses: {2}"
